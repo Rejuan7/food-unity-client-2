@@ -42,7 +42,7 @@ const router = createBrowserRouter([
             <ViewDetails></ViewDetails>
           </PrivateRoutes>
         ),
-        loader: () => fetch("http://localhost:5000/food"),
+        loader: () => fetch("https://food-unity-server-2.vercel.app/food"),
       },
       {
         path: "/addFood",
@@ -75,7 +75,7 @@ const router = createBrowserRouter([
             <Update></Update>
           </PrivateRoutes>
         ),
-        loader: () => fetch("http://localhost:5000/allFood"),
+        loader: () => fetch("https://food-unity-server-2.vercel.app/allFood"),
       },
     ],
   },

@@ -36,7 +36,7 @@ const Update = () => {
 
     console.log(updateFood);
 
-    fetch(`http://localhost:5000/editFood/${_id}`, {
+    fetch(`https://food-unity-server-2.vercel.app/editFood/${_id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",

@@ -37,7 +37,7 @@ const AddFood = () => {
 
     console.log(typeof newFood.foodQuantity);
 
-    // fetch('http://localhost:5000/food', {
+    // fetch('https://food-unity-server-2.vercel.app/food', {
     //   method: "POST",
     //   headers: {
     //     "Content-Type": "application/json",
